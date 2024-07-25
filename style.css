@@ -1,0 +1,204 @@
+/* Navigation */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation{
+    background-color:tomato;
+    display: flex;
+}
+.menu{
+    background-color: tomato;
+    height: 100px;
+    width: auto;
+}
+ul,a,li{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 180px;
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+/* section1 */
+#section1{
+    display: flex;
+    background-image: linear-gradient(antiquewhite,rgb(230, 164, 154));
+    height: 1000px;
+    width: auto;
+    padding: 25px;
+}
+.first{
+    padding: 25px;
+}
+.title{
+    padding: 15px;
+    font-size: 50px;
+}
+.para1{
+    text-transform: capitalize;
+    height: 150px;
+    width: 850px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 42%;
+    font-size: 25px;
+   
+}
+.second-img{
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+/* section2 */
+#section2{
+    
+    padding-top: 150px;
+    padding-left: 50px;
+    height: 1200px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    background-image: linear-gradient(antiquewhite,pink,pink,pink);   
+}
+
+
+
+.img1{
+    background-image: url(burger2.jpg);
+    height: 450px;
+    width: 450px;
+    margin: 25px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 40%;
+}
+.img2{
+    background-image: url(burger4.jpg);
+    height: 900px;
+    width: 450px;
+    margin: 25px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 40%;
+}
+.img3{
+    background-image: url(burger3.jpg);
+    height: 450px;
+    width: 450px;
+    margin: 25px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 40%;    
+}
+
+.para2{
+    background-color: tomato;
+    height: 350px;
+    width: 750px;  
+    position: relative;
+    top: 25%;
+    right: 2%;
+}
+.para2 P{
+    font-size: 25px;
+    padding: 25px;
+}
+.para2 h1{
+    font-size: 90px;
+    padding-left: 10px;
+}
+
+@media (max-width:768px){
+    /* Navigation */
+    #navigation{
+        background-color:tomato;
+        display: flex;
+    }
+    ul{
+        display: inline;
+        position: absolute;
+        top: 25px;
+        float: right;
+        background-color: tomato;
+        text-align: center;
+        cursor: pointer;
+    }
+    /* Section */
+    #section1{
+        display: grid;
+        padding-top: 350px;
+    }
+    .first{
+        padding-top: 15px;
+    }
+    .title{  
+        font-size: 35px;
+    }
+    .para1{
+        font-size: 16px;
+        height: 200px;
+        width: 500px;
+    }
+    .btn{
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        box-shadow: 2px 2px tomato;
+        cursor: pointer;
+        position: absolute;
+        top: 120%;
+        font-size: 15px;
+    }
+
+    .second-img{
+        padding-left: 30px;  
+    }
+    #img{
+        height: 350px;
+        width: 600px;
+        position: absolute;
+        cursor: pointer;
+    }
+    /* section2 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
